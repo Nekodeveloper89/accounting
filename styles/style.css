@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+    header {
+        display: flex;
+        justify-content: left;
+    }
+    
+    header p {
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 50px;
+        color: #005FA3;
+        margin-left: 24%;
+        margin-right: 15%;
+        margin-top: 33px;
+        margin-bottom: 34px;
+    }
+    
+    .nav {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #222222;
+        text-decoration: none;
+        margin-right: 68px;
+        margin-top: 55px;
+        margin-bottom: 31px;
+    }
+    
+    .baner {
+        height: 670px;
+        background-image: url(../images/Rectangle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .baner h3 {
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 66px;
+        color: #FFFFFF;
+        padding-top: 170px;
+        padding-left: 24%;
+    }
+    
+    .Baner_button {
+        display: block;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: #005FA3;
+        padding: 19px 18px;
+        margin-left: 24%;
+        margin-top: 80px;
+        width: 234px;
+        height: 60px;
+        transition: 200ms;
+    }
+
+    .Baner_button:hover {
+        font-size: 20px;
+        width: 236px;
+        height: 62px;
+        transition: 200ms;
+    }
+    
+    .services p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 33px;
+        color: #BDBDBD;
+        margin-top: 140px;
+        margin-left: 24%;
+    }
+    
+    .services h5 {
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 69px;
+        color: #333333;
+        margin-top: 40px;
+        margin-left: 24%;
+        margin-bottom: 102px;
+    }
+    
+    .card_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #second_line {
+        margin-top: 30px;
+    }
+    
+    .card {
+        width: 350px;
+        height: 360px;
+        background-image: url(../images/Rectangle\ 2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .card span {
+        display: block;
+        width: 187px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+        margin-left: 45px;
+        margin-top: 261px;
+    }
+    
+    .info {
+        display: flex;
+        justify-content: left;
+    }
+    
+    .inf_text {
+        margin-left: 24%;
+        margin-right: 3%;
+    }
+    
+    .about {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 33px;
+        color: #BDBDBD;
+        margin-top: 140px;
+    }
+    
+    .main {
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 69px;
+        color: #333333;
+        width: 347px;
+        margin-top: 40px;
+    }
+    
+    .desc {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+        width: 445px;
+        margin-top: 60px;
+    }
+    
+    .inf_blocks {
+        margin-top: 164px;
+        margin-bottom: 140px;
+    }
+    
+    .block_wrapper {
+        display: flex;
+    }
+    
+    #bw1 {
+        margin-bottom: 30px;
+    }
+    
+    .block {
+        width: 255px;
+        height: 255px;
+        background: #EBEBEB; 
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .block h4 {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 66px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000000;
+        display: block;
+        width: 75px;
+        padding-top: 30px;
+        margin-left: 40px;
+    }
+    
+    .block p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        display: block;
+        width: 107px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    .block a {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-decoration-line: underline;
+        color: #005FA3;
+        display: block;
+        width: 67px;
+        margin-top: 47px;
+        margin-left: 40px;
+    }
+    
+    .reviews p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 33px;
+        color: #BDBDBD;
+        margin-top: 140px;
+        margin-left: 24%;
+    }
+    
+    .reviews h5 {
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 69px;
+        color: #333333;
+        margin-top: 40px;
+        margin-left: 24%;
+    }
+
+@media screen and (max-width: 1399px) {
+    header p {
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    #nav_first {
+        margin-left: 15%;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .inf_blocks {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav {
+        margin-right: 30px;
+    }
+
+    #nav_first {
+        margin-left: 11%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .services p {
+        display: block;
+        width: 143px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+
+    .services h5 {
+        display: block;
+        width: 362px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 35px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+    }
+
+    .card_wrapper {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card {
+        display: block;
+        width: 350px;
+        height: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .card span {
+        margin: 0;
+        padding-top: 250px;
+        padding-left: 25px;
+    }
+
+    .about {
+        margin-top: 55px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 62px;
+    }
+
+    .main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 323px;
+        font-size: 30px;
+    }
+
+    .nav {
+        margin-right: 18px;
+    }
+
+    #nav_first {
+        margin-left: 6%;
+    }
+
+    .baner h3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 40px;
+        width: 273px;
+        padding-left: 0;
+    }
+
+    .baner a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inf_text {
+        margin-left: 0px;
+    }
+
+    .desc {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        margin-top: 45px;
+    }
+
+    .inf_blocks {
+        margin-top: 90px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 643px) {
+    header p {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    header {
+        display: block;
+    } 
+
+    #nav_first {
+        margin-left: auto;
+        margin-right: auto;
+        width: 118px;
+    }
+
+    .nav {
+        margin-right: 5px;
+        display: block;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 118px;
+    }
+
+    .block_wrapper {
+        display: block;
+        width: 100%;
+    }
+
+    #bw1 {
+        margin-bottom: 0px;
+    }
+
+    .inf_blocks {
+        display: block;
+        width: 100%;
+    }
+
+    .block {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .reviews {
+        display: block;
+        width: 100%;
+    }
+
+    .reviews h5 {
+        font-size: 36px;
+    }
+}
